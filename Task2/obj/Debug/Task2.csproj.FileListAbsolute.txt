@@ -8,3 +8,5 @@ D:\c#\EZJI\Task2\obj\Debug\Task2.csproj.CoreCompileInputs.cache
 D:\c#\EZJI\Task2\obj\Debug\Task2.csproj.CopyComplete
 D:\c#\EZJI\Task2\obj\Debug\Task2.exe
 D:\c#\EZJI\Task2\obj\Debug\Task2.pdb
+D:\c#\EZJI\Task2\obj\Debug\Jokes.Form1.resources
+D:\c#\EZJI\Task2\obj\Debug\Task2.csproj.GenerateResource.cache

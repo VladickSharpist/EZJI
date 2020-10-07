@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Jokes;
 using Newtonsoft.Json;
 using Turnir;
 
@@ -15,8 +16,7 @@ namespace Task2
 
         static void Main(string[] args)
         {
-             turnir turik=new turnir();
-             turik.Try();
+            RandJoke.Try();
         }
     }
 }
