@@ -19,7 +19,6 @@ namespace task3
             Saef<string> element2 = new Saef<string>("g4h5d");
             element1.Chek_id();
             element2.Chek_id();
-            Console.ReadLine();
         }
 
     }

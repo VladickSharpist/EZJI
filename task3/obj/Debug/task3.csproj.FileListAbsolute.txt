@@ -12,3 +12,10 @@ D:\Study\шарпист\EZJI\task3\obj\Debug\task3.csprojAssemblyReference.cache
 D:\Study\шарпист\EZJI\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
 D:\Study\шарпист\EZJI\task3\obj\Debug\task3.exe
 D:\Study\шарпист\EZJI\task3\obj\Debug\task3.pdb
+D:\c#\EZJI\task3\bin\Debug\task3.exe.config
+D:\c#\EZJI\task3\bin\Debug\task3.exe
+D:\c#\EZJI\task3\bin\Debug\task3.pdb
+D:\c#\EZJI\task3\obj\Debug\task3.csprojAssemblyReference.cache
+D:\c#\EZJI\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
+D:\c#\EZJI\task3\obj\Debug\task3.exe
+D:\c#\EZJI\task3\obj\Debug\task3.pdb
