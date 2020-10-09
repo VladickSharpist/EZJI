@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task3", "task3\task3.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{B5E903BB-CA4C-4D02-8A03-92891387B3CE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3292C48E-B17E-494B-AEFE-EADB951AE529}"
+	ProjectSection(SolutionItems) = preProject
+		Task2\queue.cs = Task2\queue.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -44,6 +44,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Jokes.cs" />
+    <Compile Include="queue.cs" />
     <Compile Include="Turnir.cs" />
     <Compile Include="Main.cs" />
   </ItemGroup>

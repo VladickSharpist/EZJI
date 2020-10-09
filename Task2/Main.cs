@@ -8,6 +8,8 @@ using System.IO;
 using Jokes;
 using Newtonsoft.Json;
 using Turnir;
+using Queue1;
+using System.Windows.Forms;
 
 namespace Task2
 {
@@ -16,7 +18,9 @@ namespace Task2
 
         static void Main(string[] args)
         {
-            RandJoke.Try();
+           // RandJoke.Try();
+            queue Och = new queue();
+            My_queue.Qu_Menu(Och);
         }
     }
 }
