@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Figuri;
+using flag;
 
 namespace Task4
 {
@@ -11,7 +12,8 @@ namespace Task4
     {
         static void Main(string[] args)
         {
-
+            Flag_Menu flad=new Flag_Menu();
+            flad.flag_menu();
         }
     }
 }
