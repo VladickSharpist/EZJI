@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Utki;
 using Seif;
+using Counter;
 
 namespace task3
 {
@@ -20,6 +21,8 @@ namespace task3
             element1.Chek_id();
             element2.Chek_id();
             Console.ReadLine();
+            Cou.MyFun();
+           
         }
 
     }
