@@ -6,10 +6,11 @@ namespace Counter
         public static int count;
         public obj()
         {
+            Console.WriteLine("Object created");
             count++;
         }
     }
-    class Cou
+    public class Cou
     {
         private static void Fun()
         {
