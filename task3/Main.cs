@@ -11,16 +11,37 @@ namespace task3
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Utochka duck = DuckFun.RandomDuck();
-            duck.Krua();
 
-            Saef<int> element1 = new Saef<int>(123);
-            Saef<string> element2 = new Saef<string>("g4h5d");
+        public void TrySeif()
+        {
+            Console.WriteLine("Enter Id");
+            var k = Convert.ToInt32(Console.ReadLine());
+            var z = Console.ReadLine();
+            Saef<int> element1 = new Saef<int>(k);
+            Saef<string> element2 = new Saef<string>(z);
             element1.Chek_id();
             element2.Chek_id();
         }
 
+        public void TryDuck()
+        {
+            Utochka duck = DuckFun.RandomDuck();
+            duck.Krua();
+        }
+
+        public void TryCounter()
+        {
+            Cou.MyFun();
+        }
+
+        public delegate void Try();
+
+        public Try ReturnDelegate()
+        {
+            Try menu = TrySeif;
+            menu += TryDuck;
+            menu += TryCounter;
+            return menu;
+        }
     }
 }

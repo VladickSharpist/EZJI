@@ -9,10 +9,10 @@ namespace Task1
 {
     class Program
     {
-        static void Main(string[] args)
+        public void TryFiguri()
         {
-            figuri F=new figuri();
-            F.Fun();
+            figuri fig=new figuri();
+            fig.Fun();
         }
     }
 }
