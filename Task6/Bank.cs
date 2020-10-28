@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Task6
 {
@@ -16,20 +17,27 @@ namespace Task6
         public Bank(double balance)
         {
             Balance = balance;
+            Notify += ShowMes;
         }
-        public void Withdraw(double sum)
+        public bool Withdraw(double sum)
         {
             if (sum <= Balance)
             {
                 Balance -= sum;
                 Notify?.Invoke($"Balance reduced by {sum}");
+                return true;
             }
             else
             {
                 Notify?.Invoke("Your balance is lower than withdraw sum");
-
+                return false;
             }
 
+        }
+
+        private void ShowMes(string message)
+        {
+            Console.WriteLine(message);
         }
 
         public double ShowBalance()

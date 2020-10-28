@@ -24,17 +24,23 @@ namespace Task6
         {
             Console.WriteLine("Enter sum to withdraw");
             double sum = Convert.ToDouble(Console.ReadLine());
+            if (account.Withdraw(sum))
+            {
+                MessageBox.Show($"Balance reduced by {sum}", "SMS!!!",MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void Add_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Enter sum to Add");
             double sum = Convert.ToDouble(Console.ReadLine());
+            account.Add(sum);
+            MessageBox.Show($"Added {sum} to your balance", "SMS!!!");
         }
 
         private void ShowBalance_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show(account.ShowBalance().ToString(), "SMS!!!");
         }
 
         private void Transfer_Click(object sender, EventArgs e)
@@ -50,8 +56,12 @@ namespace Task6
         private void EnterButton_Click(object sender, EventArgs e)
         {
             string UserID = IDField.Text;
-            Console.WriteLine(UserID);
-            account.Id()
+            account.Id = UserID;
+        }
+
+        private void ShowButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(account.Id, "SMS!!!");
         }
     }
 }
