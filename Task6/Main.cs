@@ -15,9 +15,7 @@ namespace Task6
         {
             Try.Fun();//Bank app
 
-            //Date
-            DATE a = new DATE();
-            a.menu();
+            
 
         }
     }

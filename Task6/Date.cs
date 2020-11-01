@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Date
 {
-    class DATE
+    public class Try
     {
         public void menu()
         {
