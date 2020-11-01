@@ -18,9 +18,9 @@ namespace Task2
 
         static void Main(string[] args)
         {
-           // RandJoke.Try();
-            queue Och = new queue();
-            My_queue.Qu_Menu(Och);
+           RandJoke.Try();
+           // queue Och = new queue();
+            //My_queue.Qu_Menu(Och);
         }
     }
 }
