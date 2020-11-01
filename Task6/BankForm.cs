@@ -40,12 +40,43 @@ namespace Task6
 
         private void ShowBalance_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(account.ShowBalance().ToString(), "SMS!!!");
+            string currency = "0";
+            switch (account.ReturnKof())
+            {
+                case 1:
+                    currency = "lucashenkos";
+                    break;
+                case 2:
+                    currency = "Dollars";
+                    break;
+                case 5:
+                    currency = "Euro";
+                    break;
+                case 50:
+                    currency = "russian rubels";
+                    break;
+            }
+            MessageBox.Show($"{account.ShowBalance().ToString()} {currency}", "SMS!!!");
         }
 
         private void Transfer_Click(object sender, EventArgs e)
         {
-            
+            account.BalanceTo();
+            string currency="0";
+            switch(account.ReturnKof())
+            {
+                case 1:
+                    currency = "lucashenkos";
+                    break;
+                case 2:currency = "Dollars";
+                    break;
+                case 5:currency = "Euro";
+                    break;
+                case 50:currency = "russian rubels";
+                        break;
+            }
+            Console.WriteLine($"Your balance is now {account.ShowBalance()} {currency}");
+            MessageBox.Show($"Your balance was transfered into {currency}","SMS!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void EnterID_TextChanged(object sender, EventArgs e)

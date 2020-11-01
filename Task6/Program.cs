@@ -12,11 +12,7 @@ namespace Task6
         [STAThread]
         static void Main(string[] args)
         {
-
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BankForm());
-
+            Try.Fun();//Bank app
 
         }
     }
