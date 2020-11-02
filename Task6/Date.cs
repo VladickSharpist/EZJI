@@ -8,7 +8,7 @@ namespace Date
 {
     public class Try
     {
-        public void menu()
+        public static void menu()
         {
             Console.WriteLine("Enter the date");
             string enter_data = Console.ReadLine();
