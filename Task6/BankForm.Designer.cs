@@ -1,4 +1,4 @@
-﻿namespace Task6
+﻿namespace Bank_
 {
     partial class BankForm
     {

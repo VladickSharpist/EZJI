@@ -8,7 +8,7 @@ namespace IndividualWord
 {
     class Try
     {
-       public static void Main(string[] args)
+       public static void main()
         {
             string Word;
             int Counter = 0;

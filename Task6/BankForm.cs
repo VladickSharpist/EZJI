@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Task6
+namespace Bank_
 {
     public partial class BankForm : Form
     {

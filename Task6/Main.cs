@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Date;
 using IndividualWord;
+using Bank_;
 
 namespace Task6
 {
@@ -14,9 +15,21 @@ namespace Task6
         [STAThread]
         static void Main(string[] args)
         {
-            Try.Fun();//Bank app
+            Console.WriteLine("Ne bei za menu\n1: Data\n2:Date\n3:Bank");
+            var k = Convert.ToInt32(Console.ReadLine());
+            switch (k)
+            {
+                case 3:
+                    Bank_.Try.Fun();
+                    break;
+                case 2:
+                    IndividualWord.Try.main();
+                    break;
+                case 1:
+                    Date.Try.menu();
+                    break;
+            }
 
-            
 
         }
     }
