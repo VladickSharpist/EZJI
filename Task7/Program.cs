@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Rainbow_Russia;
 
 namespace Task7
 {
@@ -15,6 +16,9 @@ namespace Task7
             switch (k)
             {
                 case 1:Try.Fun();
+                    break;
+                case 2:
+                    Try.Menu();
                     break;
             }
         }

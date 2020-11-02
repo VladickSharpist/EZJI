@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DATE;
 
 namespace Task6
 {
@@ -12,8 +13,8 @@ namespace Task6
         [STAThread]
         static void Main(string[] args)
         {
-            Try.Fun();//Bank app
-
+            // Try.Fun();//Bank app
+            
         }
     }
 }
